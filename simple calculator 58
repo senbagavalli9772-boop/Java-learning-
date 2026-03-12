@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int a,b;
+        Scanner ac=new Scanner(System.in);
+        a=ac.nextInt();
+        b=ac.nextInt();
+        int sum=a+b;
+        int diff=a-b;
+        int pro=a*b;
+        int quo=a/b;
+        System.out.println(sum);
+        System.out.println(diff);
+        System.out.println(pro);
+        System.out.println(quo);
+        
+    }
+}
