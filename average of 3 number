@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int m,n,o;
+        Scanner ac=new Scanner(System.in);
+        m=ac.nextInt();
+        n=ac.nextInt();
+        o=ac.nextInt();
+        int p=(m+n+o)/3;
+        System.out.println(p);
+        
+    }
+}
