@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int year;
+        Scanner ac=new Scanner(System.in);
+        year=ac.nextInt();
+         if (year >= 1000 && year <= 9999) {
+            if (year % 4 == 0) {
+                if (year % 100 == 0) {
+                    if (year % 400 == 0) {
+                        System.out.println("Leap Year");
+                    } else {
+                        System.out.println("Not Leap Year");
+                    }
+                } else {
+                    System.out.println("Leap Year");
+                }
+            } else {
+                System.out.println("Not Leap Year");
+            }
+        } else {
+            System.out.println("Invaild ");
+        }
+            
+        
+    }
+}
