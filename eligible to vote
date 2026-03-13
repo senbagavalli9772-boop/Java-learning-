@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int vote;
+        Scanner ac=new Scanner(System.in);
+        vote=ac.nextInt();
+        if(vote>18)
+        {
+            System.out.println("Eligible");
+        } 
+        else
+        {
+            System.out.println("Not Eligible");
+        }
+    }
+}
