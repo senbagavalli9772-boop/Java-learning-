@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) 
+    {
+        Scanner ac = new Scanner(System.in);
+        int n = ac.nextInt(); 
+        int original=n;
+        int total=0;
+        while(n>0)
+        {
+          int lastnum=n%10;
+          total=total+lastnum*lastnum*lastnum;
+          n=n/10;
+        }
+        if(total==original)
+        {
+          System.out.println("armstrong");
+        }
+        else
+        {
+          System.out.println("not armstrong");
+        }
+        
+    }    
+}  
