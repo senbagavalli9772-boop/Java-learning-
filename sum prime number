@@ -1,0 +1,30 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) 
+    {
+        Scanner ac = new Scanner(System.in);
+        int start = 10;
+        int end = 50;
+        int sum = 0;
+
+        for (int i = start; i <= end; i++) {
+            boolean prime = true;
+            if (i <= 1) prime = false;
+            else {
+                for (int j = 2; j <= i / 2; j++) {
+                    if (i % j == 0) {
+                        prime = false;
+                        
+                    }
+                }
+            }
+            if (prime) {
+                sum += i;
+            }
+        }
+
+        System.out.println("Sum of prime  " + start + " and " + end + ": " + sum);
+    }
+}
+    }    
+}  
