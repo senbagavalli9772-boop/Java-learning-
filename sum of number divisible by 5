@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) 
+    {
+        Scanner ac = new Scanner(System.in);
+        int n = ac.nextInt(); 
+        int start = 1;
+        int end = 100;
+        int sum = 0;
+        for (int i = start; i <= end; i++) {
+            if (i % 5 == 0) {
+                sum += i;
+            }
+        }
+        System.out.println("div " + start + " and " + end + ": " + sum);
+        
+    }    
+}  
