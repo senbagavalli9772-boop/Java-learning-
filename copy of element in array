@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner ac=new Scanner(System.in);
+        int n=ac.nextInt();
+        int[]arr=new int[n];
+        int[]copy=new int[n];
+      for(int i=0;i<n;i++)
+      {
+          arr[i]=ac.nextInt();
+          copy[i]=arr[i];
+          System.out.print(copy[i]+" ");
+      }
+    }
+}
