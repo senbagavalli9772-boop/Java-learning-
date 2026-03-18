@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int y;
+        Scanner ac=new Scanner (System.in);
+        y=ac.nextInt();
+        long a=(long)y*(y+1)/2;
+        System.out.println(a);
+    }
+}
